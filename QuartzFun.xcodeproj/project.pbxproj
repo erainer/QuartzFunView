@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A1F3E37120605215008D4A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E37020605215008D4A96 /* AppDelegate.swift */; };
-		A1F3E37320605215008D4A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E37220605215008D4A96 /* ViewController.swift */; };
 		A1F3E37620605215008D4A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F3E37420605215008D4A96 /* Main.storyboard */; };
 		A1F3E37920605215008D4A96 /* QuartzFun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E37720605215008D4A96 /* QuartzFun.xcdatamodeld */; };
 		A1F3E37B20605215008D4A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F3E37A20605215008D4A96 /* Assets.xcassets */; };
 		A1F3E37E20605215008D4A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F3E37C20605215008D4A96 /* LaunchScreen.storyboard */; };
+		A1F3E3862060524C008D4A96 /* QuartzFunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E3852060524C008D4A96 /* QuartzFunView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1F3E36D20605215008D4A96 /* QuartzFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F3E37020605215008D4A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1F3E37220605215008D4A96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1F3E37520605215008D4A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1F3E37820605215008D4A96 /* QuartzFun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuartzFun.xcdatamodel; sourceTree = "<group>"; };
 		A1F3E37A20605215008D4A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F3E37D20605215008D4A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1F3E37F20605215008D4A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F3E3852060524C008D4A96 /* QuartzFunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzFunView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				A1F3E37020605215008D4A96 /* AppDelegate.swift */,
-				A1F3E37220605215008D4A96 /* ViewController.swift */,
 				A1F3E37420605215008D4A96 /* Main.storyboard */,
 				A1F3E37A20605215008D4A96 /* Assets.xcassets */,
 				A1F3E37C20605215008D4A96 /* LaunchScreen.storyboard */,
 				A1F3E37F20605215008D4A96 /* Info.plist */,
 				A1F3E37720605215008D4A96 /* QuartzFun.xcdatamodeld */,
+				A1F3E3852060524C008D4A96 /* QuartzFunView.swift */,
 			);
 			path = QuartzFun;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F3E37320605215008D4A96 /* ViewController.swift in Sources */,
+				A1F3E3862060524C008D4A96 /* QuartzFunView.swift in Sources */,
 				A1F3E37120605215008D4A96 /* AppDelegate.swift in Sources */,
 				A1F3E37920605215008D4A96 /* QuartzFun.xcdatamodeld in Sources */,
 			);
